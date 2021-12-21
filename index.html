@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>2022年賀状</title>
+
+  <!-- レスポンシブ対応 -->
+  <link rel="stylesheet" href="index.css" media="screen">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <!-- Javascript スライダー表示 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script type="text/javascript">
+          $(document).ready(function(){
+              $('.slider').bxSlider({
+                  auto: true,
+                  pause: 5000,  /* 1秒＝1000 でスライドさせる */
+              });
+          });
+  </script>
+</head>
+
+<body>
+  <div class="img_slider">
+
+    <div class="slider">
+      <img src="img/img1.jpg" alt="">
+      <img src="img/img6.jpg" alt="">
+      <img src="img/img7.jpg" alt="">
+      <img src="img/img4.jpg" alt="">
+    </div>
+
+    <div class="box">
+      <div class="animation">
+        <p class="title">謹賀新年</p>
+        <p class="aisatsu1">昨年はお世話になりました。</p>
+        <p class="aisatsu2">本年も変わらぬご愛顧の程</p>
+        <p class="aisatsu3">心よりお願い申し上げます。</p>
+        <p class="year">令和四年　元旦　代表　宮城達夫</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

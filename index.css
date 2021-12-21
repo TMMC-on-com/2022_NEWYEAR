@@ -1,0 +1,288 @@
+/*　画面サイズが768px以下はここを読み込む　*/
+@media screen and (max-width:768px) { 
+  body {
+    background-color:lightgray;
+  }
+
+  .animation {
+    text-align: center;
+  }
+
+  .info {
+    text-align: center;
+  }
+}
+
+/*　画面サイズが768pxから1024pxまではここを読み込む　*/
+@media screen and (min-width:768px) and ( max-width:1024px)  { 
+  body {
+    background-color:white;
+  }
+
+  .box {
+    background-color: white;
+    opacity    : 0.7;
+    border-radius: 10px;
+    margin     : auto;
+    overflow   : hidden;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 925px;
+    height: 350px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+  }
+
+  .box .animation .title{
+    font-size:3vw;
+    font-weight:bold;
+    color:red;
+    position:absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay: 0s;
+    animation-direction:normal;
+  }
+
+
+  .box .animation .aisatsu1{
+    font-size:2vw;
+    font-weight:bold;
+    color:black;
+    position:absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay: 1s;
+    animation-direction:normal;
+  }
+
+  .box .animation .aisatsu2{
+    font-size:2vw;
+    font-weight:bold;
+    color:black;
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay: 2s;
+    animation-direction:normal;
+  }
+
+  .box .animation .aisatsu3{
+    font-size:2vw;
+    font-weight:bold;
+    color:black;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay: 3s;
+    animation-direction:normal;
+  }
+
+  .box .animation .year{
+    font-size:2vw;
+    font-weight:bold;
+    color:black;
+    position:absolute;
+    top: 75%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay: 4s;
+    animation-direction:normal;
+  }
+
+  @keyframes fadeInAnime{
+
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+/*　画面サイズが1024pxからはここを読み込む　*/
+@media screen and (min-width:1024px) { 
+  body {
+    background-color:white;
+  }
+
+  .box {
+    background-color: white;
+    opacity    : 0.7;
+    border-radius: 10px;
+    margin     : auto;
+    overflow   : hidden;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 925px;
+    height: 400px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+  }
+
+  .box .animation .title{
+    font-size:3vw;
+    font-weight:bold;
+    color:red;
+    position:absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay: 0s;
+    animation-direction:normal;
+  }
+
+
+  .box .animation .aisatsu1{
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+    position:absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay: 1s;
+    animation-direction:normal;
+  }
+
+  .box .animation .aisatsu2{
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay: 2s;
+    animation-direction:normal;
+  }
+
+  .box .animation .aisatsu3{
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay: 3s;
+    animation-direction:normal;
+  }
+
+  .box .animation .year{
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+    position:absolute;
+    top: 75%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+    z-index: 1; /*一番上にする*/
+
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay: 4s;
+    animation-direction:normal;
+  }
+
+  @keyframes fadeInAnime{
+
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}
